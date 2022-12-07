@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+.page{
+    margin:0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: orange;
+}
+#characterPicker{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#characterPicker>button{
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+}
+#characterPicker>button:hover{
+    cursor: pointer;
+    color: white;
+    transition: 1s;
+}
+#currentCharacter{
+    background-color: skyblue;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    border: 5px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
